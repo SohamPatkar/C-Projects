@@ -31,7 +31,7 @@ void DisplayStats()
     cout << "Player Healing Power: "<<healingPower<<endl;
 }
 
-void TakeDamage(int damageToInflict)
+void TakeDamage(float damageToInflict)
 {
     health = health - damageToInflict;
 
