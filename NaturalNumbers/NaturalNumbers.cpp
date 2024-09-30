@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+int length;
 int sum = 0;
 void SumofNumbers();
 
@@ -11,10 +12,12 @@ int main()
 
 void SumofNumbers()
 {
-    for (int i = 1; i<=10;i++)
+    cout <<"Enter the length:"<<endl;
+    cin >>length;
+    for (int i = 1; i<=length;i++)
     {
         sum = sum + i;        
     }
-    cout<<"Sum of first ten numbers: "<<sum<<endl;
+    cout<<"Sum of first "<<length<<" natural numbers: "<<sum<<endl;
 }
 
