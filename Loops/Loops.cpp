@@ -31,15 +31,15 @@ int main()
 
 void shooting()
 {
-    cout<<"Shooting!"<<endl;
+    cout<<"player is Shooting!"<<endl;
 }
 
 void healing()
 {
-    cout<<"Healing..."<<endl;
+    cout<<"player is Healing..."<<endl;
 }
 
 void attacking()
 {
-    cout<<"Attacking!!!"<<endl;
+    cout<<"player is Attacking!!!"<<endl;
 }
