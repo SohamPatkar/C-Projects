@@ -24,7 +24,8 @@ int main() {
   cout << "Is player defending?(0 for false and 1 for true)" << endl;
   cin >> input;
   isPlayerDefending = input;
-  if (isPlayerInRange == true && isPlayerAttacking == false && isPlayerDefending == false) {
+  if (isPlayerInRange == true && isPlayerAttacking == false && isPlayerDefending == false) 
+  {
     cout << "the enemy should attack" << endl;
     playerHealth -= 10;
     cout << "Player Health: " << playerHealth << endl;
