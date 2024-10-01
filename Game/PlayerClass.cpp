@@ -15,16 +15,45 @@ class Player
     public:
     Player()
     {
-        cout<<endl;
+        
     }
 
     void PlayerIntro()
     {
+        cout<<endl;
         cout<<"------- Player Introduction -------"<<endl;
         cout<<"Arthur ShotGun... I just dont have a shotgun"<<endl;
         cout<<"But... I have a revolver!"<<endl;
-        cout<<"My damage varies from "<<minDamage<<" to "<<maxDamage<<endl;
+        cout<<"My gun's damage varies from "<<minDamage<<" to "<<maxDamage<<" as sometimes my gun loses it efficiency"<<endl;
         cout<<"I also can heal... with these bandages which will vary from "<<minHeal<<" to "<<maxHeal<<endl;
+    }
+
+    int GetHealth()
+    {
+        return health;
+    }
+
+    int GiveDamage()
+    {
+        return 0;
+    }
+
+    void TakeDamage(int damage)
+    {
+        if(health > 0)
+        {
+            cout<<"Player has taken "<<damage<<" damage"<<endl;
+            health = health - damage;
+        }
+        else
+        {
+            cout<<"Player has died!"<<endl;
+        }
+    }
+
+    void Heal()
+    {
+
     }
 };
 
