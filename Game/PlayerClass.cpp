@@ -16,7 +16,6 @@ class Player
     Player()
     {
         cout<<endl;
-        cout<<"Inside a constructor"<<endl;
     }
 
     void PlayerIntro()
