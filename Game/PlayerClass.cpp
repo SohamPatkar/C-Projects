@@ -11,8 +11,8 @@ class Player
 
     int damage,heal;
 
-    int minHeal = 5;
-    int maxHeal = 10;
+    int minHeal = 10;
+    int maxHeal = 15;
 
     public:
     Player()
@@ -45,14 +45,15 @@ class Player
 
     void TakeDamage(int damage)
     {
-        if(health > 0)
+        health = health - damage;
+        if(health < 0)
         {
-            cout<<"Player has taken "<<damage<<" damage"<<endl;
-            health = health - damage;
+            cout<<"Player has died!"<<endl;
+            cout<<"Micah: Slowpoke you got served!"<<endl;
         }
         else
         {
-            cout<<"Player has died!"<<endl;
+            cout<<"Player has taken "<<damage<<" damage"<<endl;
         }
     }
 
@@ -72,6 +73,9 @@ class Enemy
 {
     private:
     int health = 100;
+
+    int minDamage = 10;
+    int maxDamage = 12;
 
     int damage = 10;
 
@@ -97,39 +101,73 @@ class Enemy
 
     int GiveDamage()
     {
-        cout<<"You dealt a damage of: "<<damage<<endl;
+        srand(time(0));
+        damage = minDamage + (rand() % (maxDamage - minDamage + 1));
         return damage;
     }
 
     void TakeDamage(int damage)
     {
-        if(health > 0)
+        health = health - damage;
+        if(health < 0)
         {
-            cout<<"Player has taken "<<damage<<" damage"<<endl;
-            health = health - damage;
+            cout<<"Micah has died!"<<endl;
+            cout<<"Arthur: You rat! "<<endl;
         }
         else
         {
-            cout<<"Player has died!"<<endl;
+            cout<<"Micah has taken "<<damage<<" damage"<<endl;
         }
     }
-
 };
+
+void GameLoop(Player _player, Enemy _enemy)
+{
+    string playerChoice;
+    do{
+        cout<<"Player Health:"<<_player.GetHealth()<<endl;
+        cout<<"Enemy Health:"<<_enemy.GetHealth()<<endl;
+        cout<<"Press A to attack or H to heal..."<<endl;
+        cin >> playerChoice;
+        if(playerChoice == "A" || playerChoice == "a")
+        {
+            _enemy.TakeDamage(_player.GiveDamage());
+            if(_enemy.GetHealth() > 0 && _player.GetHealth() > 0)
+            {
+                _player.TakeDamage(_enemy.GiveDamage());
+            }
+        }
+        else if(playerChoice == "H" || playerChoice == "h")
+        {
+            _player.Heal();
+            if(_enemy.GetHealth() > 0 && _player.GetHealth() > 0)
+            {
+                _player.TakeDamage(_enemy.GiveDamage());
+            }
+        }
+        else
+        {
+            cout<<"Invalid input!"<<endl;
+        }
+    }while(_enemy.GetHealth() > 0 && _player.GetHealth() > 0);
+}
 
 int main()
 {
     string input;
     cout<<endl;
-    cout<<"To Start The game press S";
+    cout<<"To Start The game press S"<<endl;
     cin >> input;
 
     if(input == "s" || input == "S")
     {
         Player _playerobj;
         Enemy _enemyobj;
+        GameLoop(_playerobj, _enemyobj);
     }
     else
     {
-        cout<<"Thank you for playing the game"<<endl;;
+        cout<<"Thank you for playing the game"<<endl;
     }
 }
+
