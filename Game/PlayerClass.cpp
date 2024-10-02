@@ -4,7 +4,7 @@ using namespace std;
 class Player
 {
     private:
-    int health;
+    int health = 100;
 
     int minDamage = 8;
     int maxDamage = 15;
@@ -17,7 +17,7 @@ class Player
     public:
     Player()
     {
-        
+        PlayerIntro();
     }
 
     void PlayerIntro()
@@ -68,8 +68,76 @@ class Player
     }
 };
 
+class Enemy
+{
+    private:
+    int health = 100;
+
+    int minDamage = 8;
+    int maxDamage = 15;
+
+    int damage,heal;
+
+    int minHeal = 5;
+    int maxHeal = 10;
+
+    public:
+    Enemy()
+    {
+        EnemyIntro();
+    }
+
+    void EnemyIntro()
+    {
+        cout<<endl;
+        cout<<"------- Enemy Introduction -------"<<endl;
+        cout<<"Remember me... if you have forgotten it's me Micah."<<endl;
+        cout<<"Slowpoke, you still look weak!"<<endl;
+        cout<<"I will show you what a Slowpoke like you gets for such a stupid introduction..."<<endl;
+    }
+
+    int GetHealth()
+    {
+        return health;
+    }
+
+    int GiveDamage()
+    {
+        srand(time(0));
+        damage = minDamage + (rand() % (maxDamage - minDamage + 1));
+        cout<<"You dealt a damage of: "<<damage<<endl;
+        return damage;
+    }
+
+    void TakeDamage(int damage)
+    {
+        if(health > 0)
+        {
+            cout<<"Player has taken "<<damage<<" damage"<<endl;
+            health = health - damage;
+        }
+        else
+        {
+            cout<<"Player has died!"<<endl;
+        }
+    }
+
+};
+
 int main()
 {
-    Player _playerobj;
-    _playerobj.PlayerIntro();
+    string input;
+    cout<<endl;
+    cout<<"To Start The game press S";
+    cin >> input;
+
+    if(input == "s" || input == "S")
+    {
+        Player _playerobj;
+        Enemy _enemyobj;
+    }
+    else
+    {
+        cout<<"Thank you for playing the game"<<endl;;
+    }
 }
