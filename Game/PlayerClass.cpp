@@ -73,13 +73,7 @@ class Enemy
     private:
     int health = 100;
 
-    int minDamage = 8;
-    int maxDamage = 15;
-
-    int damage,heal;
-
-    int minHeal = 5;
-    int maxHeal = 10;
+    int damage = 10;
 
     public:
     Enemy()
@@ -103,8 +97,6 @@ class Enemy
 
     int GiveDamage()
     {
-        srand(time(0));
-        damage = minDamage + (rand() % (maxDamage - minDamage + 1));
         cout<<"You dealt a damage of: "<<damage<<endl;
         return damage;
     }
