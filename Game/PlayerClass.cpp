@@ -9,6 +9,8 @@ class Player
     int minDamage = 8;
     int maxDamage = 15;
 
+    int damage,heal;
+
     int minHeal = 5;
     int maxHeal = 10;
 
@@ -35,7 +37,10 @@ class Player
 
     int GiveDamage()
     {
-        return 0;
+        srand(time(0));
+        damage = minDamage + (rand() % (maxDamage - minDamage + 1));
+        cout<<"You dealt a damage of: "<<damage<<endl;
+        return damage;
     }
 
     void TakeDamage(int damage)
@@ -53,7 +58,13 @@ class Player
 
     void Heal()
     {
-
+        srand(time(0));
+        heal = minHeal + (rand() % (maxHeal - minHeal + 1));
+        if(health < 100)
+        {
+            health = health + heal;
+            cout<< "Wow thanks for the bandages!"<<endl;
+        }
     }
 };
 
