@@ -268,7 +268,7 @@
           <mxGeometry x="2150" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4W18PF3If4PIli-GaOo7-20" value="GetGuideInfo" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2150" y="750" width="120" height="60" as="geometry" />
+          <mxGeometry x="2150" y="790" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4W18PF3If4PIli-GaOo7-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4W18PF3If4PIli-GaOo7-22" target="4W18PF3If4PIli-GaOo7-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -297,7 +297,7 @@
         <mxCell id="4W18PF3If4PIli-GaOo7-24" value="If experience id&amp;nbsp;&lt;div&gt;&amp;amp;&amp;amp; orgid&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2140" y="550" width="140" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="4W18PF3If4PIli-GaOo7-31" value="Exit" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="4W18PF3If4PIli-GaOo7-31" value="Scan Again" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1930" y="590" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
