@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0" version="28.2.7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.8">
   <diagram name="Page-1" id="IvZUe8c4DamXavYtDa3X">
-    <mxGraphModel dx="985" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3078" dy="1598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -313,7 +313,7 @@
         <mxCell id="Q8HdXVr6zsRusXA_SVWu-2" value="Guide Info Complete&lt;div&gt;(Response)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2150" y="900.0000000000002" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Mu80hhkGenpG6uN-Pg20-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Q8HdXVr6zsRusXA_SVWu-5">
+        <mxCell id="Mu80hhkGenpG6uN-Pg20-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Q8HdXVr6zsRusXA_SVWu-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2210" y="1110" as="targetPoint" />
           </mxGeometry>
@@ -321,8 +321,27 @@
         <mxCell id="Q8HdXVr6zsRusXA_SVWu-5" value="Set Globals Guide Info Complete" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2150" y="1000" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Mu80hhkGenpG6uN-Pg20-2" value="Guide Loader" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Xx0K80nGQqlELwxvKQWP-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Mu80hhkGenpG6uN-Pg20-2" target="Xx0K80nGQqlELwxvKQWP-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2210" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mu80hhkGenpG6uN-Pg20-2" value="Guide Loader" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2150" y="1100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Xx0K80nGQqlELwxvKQWP-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Xx0K80nGQqlELwxvKQWP-1" target="Xx0K80nGQqlELwxvKQWP-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050" y="1695" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xx0K80nGQqlELwxvKQWP-1" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Scene 1:&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Auto Nav Settings&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Configure JSON&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;API Handler&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Guide Caching&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Init PXR Services&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Marker Scanning&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Deeplink Manager&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1550" width="324.8" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="Xx0K80nGQqlELwxvKQWP-3" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Scene 2&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Guide Loader&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Anchor Handler&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="1550" width="320" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="Xx0K80nGQqlELwxvKQWP-7" value="Guide Handler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2150" y="1200.43" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
