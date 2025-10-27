@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0" version="28.2.8">
   <diagram name="Page-1" id="IvZUe8c4DamXavYtDa3X">
-    <mxGraphModel dx="899" dy="496" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1591" dy="877" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -361,7 +361,7 @@
           <mxGeometry x="990" y="1550" width="320" height="290" as="geometry" />
         </mxCell>
         <mxCell id="Xx0K80nGQqlELwxvKQWP-7" value="Guide Handler" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2590" y="1409.57" width="120" height="60" as="geometry" />
+          <mxGeometry x="2590" y="1490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Xx0K80nGQqlELwxvKQWP-9" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Scene 3&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;Content Loader&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;Undo System(Command Manager)&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Guide Handler&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Audio Content&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Global Menu&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Step Creation Handler&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1370" y="1550" width="340" height="290" as="geometry" />
@@ -382,7 +382,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Xx0K80nGQqlELwxvKQWP-17" value="Content Handler" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2410" y="1409.57" width="120" height="60" as="geometry" />
+          <mxGeometry x="2410" y="1490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TbNMB7oVemHBArSW44Zf-5" value="Guide Caching" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2770" y="1299.57" width="120" height="60" as="geometry" />
@@ -409,6 +409,12 @@
         </mxCell>
         <mxCell id="TbNMB7oVemHBArSW44Zf-21" value="Place Anchors" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2915" y="1230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TbNMB7oVemHBArSW44Zf-23" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="2350" y="1159.57" width="740" height="230.43" as="geometry" />
+        </mxCell>
+        <mxCell id="TbNMB7oVemHBArSW44Zf-24" value="Prepare Guide Scene" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="TbNMB7oVemHBArSW44Zf-23">
+          <mxGeometry x="20" y="20.43" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
