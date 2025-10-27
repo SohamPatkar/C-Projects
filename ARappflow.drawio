@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0" version="28.2.8">
   <diagram name="Page-1" id="IvZUe8c4DamXavYtDa3X">
-    <mxGraphModel dx="492" dy="271" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1379" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -409,11 +409,17 @@
         <mxCell id="Xx0K80nGQqlELwxvKQWP-17" value="Content Handler" style="rounded=0;whiteSpace=wrap;html=1;" parent="pReOs-HD7dCCYbw2_rdl-12" vertex="1">
           <mxGeometry x="225" y="30" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Xx0K80nGQqlELwxvKQWP-7" value="Guide Handler" style="rounded=0;whiteSpace=wrap;html=1;" parent="pReOs-HD7dCCYbw2_rdl-12" vertex="1">
+        <mxCell id="pReOs-HD7dCCYbw2_rdl-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="pReOs-HD7dCCYbw2_rdl-12" source="Xx0K80nGQqlELwxvKQWP-7" target="pReOs-HD7dCCYbw2_rdl-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xx0K80nGQqlELwxvKQWP-7" value="Recycle Bin" style="rounded=0;whiteSpace=wrap;html=1;" parent="pReOs-HD7dCCYbw2_rdl-12" vertex="1">
           <mxGeometry x="225" y="130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pReOs-HD7dCCYbw2_rdl-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="pReOs-HD7dCCYbw2_rdl-12" source="Xx0K80nGQqlELwxvKQWP-17" target="Xx0K80nGQqlELwxvKQWP-7">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pReOs-HD7dCCYbw2_rdl-19" value="Undo System" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pReOs-HD7dCCYbw2_rdl-12">
+          <mxGeometry x="225" y="230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pReOs-HD7dCCYbw2_rdl-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pReOs-HD7dCCYbw2_rdl-9" target="pReOs-HD7dCCYbw2_rdl-12">
           <mxGeometry relative="1" as="geometry">
