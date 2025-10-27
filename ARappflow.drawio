@@ -399,7 +399,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pReOs-HD7dCCYbw2_rdl-7" value="Guide Caching" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="TbNMB7oVemHBArSW44Zf-23">
-          <mxGeometry x="240" y="440" width="120" height="60" as="geometry" />
+          <mxGeometry x="240" y="430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pReOs-HD7dCCYbw2_rdl-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="TbNMB7oVemHBArSW44Zf-23" source="TbNMB7oVemHBArSW44Zf-5" target="pReOs-HD7dCCYbw2_rdl-7">
           <mxGeometry relative="1" as="geometry">
