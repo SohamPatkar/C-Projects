@@ -327,7 +327,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Mu80hhkGenpG6uN-Pg20-2" value="Guide Loader" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2150" y="1170.22" width="120" height="60" as="geometry" />
+          <mxGeometry x="2150" y="1180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Xx0K80nGQqlELwxvKQWP-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Xx0K80nGQqlELwxvKQWP-1" target="Xx0K80nGQqlELwxvKQWP-3" edge="1">
           <mxGeometry relative="1" as="geometry">
