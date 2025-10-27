@@ -324,13 +324,8 @@
         <mxCell id="Q8HdXVr6zsRusXA_SVWu-5" value="Set Globals Guide Info Complete" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2590" y="970.22" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TbNMB7oVemHBArSW44Zf-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Mu80hhkGenpG6uN-Pg20-2" target="TbNMB7oVemHBArSW44Zf-19" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2770" y="1260" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="2650" y="1480" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="pReOs-HD7dCCYbw2_rdl-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Mu80hhkGenpG6uN-Pg20-2" target="TbNMB7oVemHBArSW44Zf-19">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Mu80hhkGenpG6uN-Pg20-2" value="Guide Loader" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2590" y="1299.57" width="120" height="60" as="geometry" />
@@ -386,19 +381,19 @@
           <mxGeometry x="20" y="20" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TbNMB7oVemHBArSW44Zf-23" value="" style="swimlane;startSize=0;" parent="1" vertex="1">
-          <mxGeometry x="2350" y="1159.57" width="560" height="540.43" as="geometry" />
+          <mxGeometry x="2350" y="1150" width="560" height="540.43" as="geometry" />
         </mxCell>
         <mxCell id="TbNMB7oVemHBArSW44Zf-24" value="Prepare Guide Scene" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="TbNMB7oVemHBArSW44Zf-23" vertex="1">
           <mxGeometry x="20" y="20.43" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TbNMB7oVemHBArSW44Zf-5" value="Guide Caching" style="rounded=0;whiteSpace=wrap;html=1;" parent="TbNMB7oVemHBArSW44Zf-23" vertex="1">
-          <mxGeometry x="240" y="360.43" width="120" height="60" as="geometry" />
+          <mxGeometry x="240" y="340.43" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pReOs-HD7dCCYbw2_rdl-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="TbNMB7oVemHBArSW44Zf-23" source="TbNMB7oVemHBArSW44Zf-19" target="TbNMB7oVemHBArSW44Zf-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TbNMB7oVemHBArSW44Zf-19" value="ARuco Marker scanning" style="rounded=0;whiteSpace=wrap;html=1;" parent="TbNMB7oVemHBArSW44Zf-23" vertex="1">
-          <mxGeometry x="240" y="260.43000000000006" width="120" height="60" as="geometry" />
+          <mxGeometry x="240" y="240.43000000000006" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
