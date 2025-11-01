@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0" version="28.2.8">
   <diagram name="Page-1" id="IvZUe8c4DamXavYtDa3X">
-    <mxGraphModel dx="3447" dy="1900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="795" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -388,7 +388,7 @@
           <mxGeometry x="140" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TbNMB7oVemHBArSW44Zf-19" value="ARuco Marker scanning" style="rounded=0;whiteSpace=wrap;html=1;" parent="TbNMB7oVemHBArSW44Zf-23" vertex="1">
-          <mxGeometry x="300" y="160.00000000000006" width="120" height="60" as="geometry" />
+          <mxGeometry x="310" y="160.00000000000006" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pReOs-HD7dCCYbw2_rdl-7" value="Guide Caching" style="rounded=0;whiteSpace=wrap;html=1;" parent="TbNMB7oVemHBArSW44Zf-23" vertex="1">
           <mxGeometry x="140" y="360" width="120" height="60" as="geometry" />
@@ -397,7 +397,7 @@
           <mxGeometry x="225" y="60" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pReOs-HD7dCCYbw2_rdl-9" value="Anchors placed on Aruco" style="rounded=0;whiteSpace=wrap;html=1;" parent="TbNMB7oVemHBArSW44Zf-23" vertex="1">
-          <mxGeometry x="300" y="260" width="120" height="60" as="geometry" />
+          <mxGeometry x="310" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tEo2dVhjb3LcL-jKnSfp-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="TbNMB7oVemHBArSW44Zf-23" source="TbNMB7oVemHBArSW44Zf-19" target="pReOs-HD7dCCYbw2_rdl-9" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -412,12 +412,20 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="210" y="370" as="targetPoint" />
             <mxPoint x="210" y="330" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="200" y="480" />
+              <mxPoint x="285" y="480" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="tEo2dVhjb3LcL-jKnSfp-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="TbNMB7oVemHBArSW44Zf-23" source="pReOs-HD7dCCYbw2_rdl-9" target="tEo2dVhjb3LcL-jKnSfp-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="290" y="560" as="targetPoint" />
             <mxPoint x="210" y="430" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="360" y="480" />
+              <mxPoint x="285" y="480" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="pReOs-HD7dCCYbw2_rdl-12" value="" style="swimlane;startSize=0;" parent="1" vertex="1">
