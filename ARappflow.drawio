@@ -204,11 +204,6 @@
             <mxPoint x="790.5" y="2300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="totXHDVQlXYFg4SG0R3H-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4W18PF3If4PIli-GaOo7-2" target="totXHDVQlXYFg4SG0R3H-10">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1070.5" y="2279.46" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="4W18PF3If4PIli-GaOo7-2" value="Routes" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="730.5" y="2170" width="120" height="60" as="geometry" />
         </mxCell>
@@ -490,9 +485,6 @@
         </mxCell>
         <mxCell id="totXHDVQlXYFg4SG0R3H-7" value="Stored Procedures" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="638" y="1490" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="totXHDVQlXYFg4SG0R3H-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1102.4" y="2280" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
