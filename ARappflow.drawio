@@ -197,7 +197,7 @@
           <mxGeometry x="1380" y="1350.32" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7TSzQ8CPN0DZGMbfUcCz-53" value="Get Experience By Organisation ID" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1530" y="1350.32" width="120" height="60" as="geometry" />
+          <mxGeometry x="1530" y="1350.32" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4W18PF3If4PIli-GaOo7-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4W18PF3If4PIli-GaOo7-2" target="4W18PF3If4PIli-GaOo7-4" edge="1">
           <mxGeometry relative="1" as="geometry">
