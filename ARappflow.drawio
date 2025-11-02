@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.8">
   <diagram name="Page-1" id="IvZUe8c4DamXavYtDa3X">
-    <mxGraphModel dx="1184" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2052" dy="1065" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -487,7 +487,7 @@
           <mxGeometry x="1400" y="1099.7799999999997" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qqSWvCoPnMt1t0OgqwVS-5" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
-          <mxGeometry x="330" y="1340" width="920" height="330" as="geometry" />
+          <mxGeometry x="330" y="1340" width="830" height="330" as="geometry" />
         </mxCell>
         <mxCell id="7TSzQ8CPN0DZGMbfUcCz-33" value="Azure Blob Storage" style="rounded=0;whiteSpace=wrap;html=1;" parent="qqSWvCoPnMt1t0OgqwVS-5" vertex="1">
           <mxGeometry x="650.5" y="139.99999999999977" width="120" height="60" as="geometry" />
