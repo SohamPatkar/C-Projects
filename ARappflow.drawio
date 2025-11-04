@@ -564,7 +564,7 @@
           <mxGeometry x="883" y="4126" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="al3oPbbBFRGCTkH1b7PF-2" value="" style="swimlane;startSize=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="300" y="90" width="1580" height="4290" as="geometry" />
+          <mxGeometry x="170" y="90" width="1710" height="4290" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
