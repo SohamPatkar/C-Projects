@@ -610,7 +610,7 @@
             <mxPoint x="290" y="130" as="targetPoint" />
             <Array as="points">
               <mxPoint x="290" y="140" />
-              <mxPoint x="170" y="140" />
+              <mxPoint x="150" y="140" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -659,7 +659,7 @@
           <mxGeometry x="380" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MyipMraEYjVXJd7cdlvJ-11" value="Build Assessment" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="JMz6lP4IwFYH2B9k0Lt9-7">
-          <mxGeometry x="110" y="160" width="120" height="60" as="geometry" />
+          <mxGeometry x="90" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MyipMraEYjVXJd7cdlvJ-12" value="Build Quiz" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="JMz6lP4IwFYH2B9k0Lt9-7">
           <mxGeometry x="380" y="250" width="120" height="60" as="geometry" />
