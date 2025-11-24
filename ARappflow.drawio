@@ -27,15 +27,13 @@
         <mxCell id="7TSzQ8CPN0DZGMbfUcCz-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Creator" vertex="1">
           <mxGeometry height="60" width="120" x="553" y="280" as="geometry" />
         </mxCell>
-        <mxCell id="74oblmDtSN1vecxiPp4f-72" edge="1" parent="1" source="74oblmDtSN1vecxiPp4f-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="74oblmDtSN1vecxiPp4f-48">
+        <mxCell id="74oblmDtSN1vecxiPp4f-72" edge="1" parent="1" source="74oblmDtSN1vecxiPp4f-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="74oblmDtSN1vecxiPp4f-48">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2770" y="1955" />
               <mxPoint x="2770" y="2010" />
               <mxPoint x="3000" y="2010" />
-              <mxPoint x="3000" y="1770" />
-              <mxPoint x="2780" y="1770" />
-              <mxPoint x="2780" y="1835" />
+              <mxPoint x="3000" y="1835" />
             </Array>
           </mxGeometry>
         </mxCell>
