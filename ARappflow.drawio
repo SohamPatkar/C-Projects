@@ -712,7 +712,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="74oblmDtSN1vecxiPp4f-24" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" value="AR VR Assessments" vertex="1">
-          <mxGeometry height="240" width="180" x="2500" y="1530" as="geometry">
+          <mxGeometry height="240" width="180" x="2500" y="1700" as="geometry">
             <mxRectangle height="30" width="170" x="2500" y="1530" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
