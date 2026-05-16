@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="weN5-_JmtRoz4FX55WBV">
+    <mxGraphModel dx="1406" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MzNmJEaBrT5Vp8bS7omA-2" edge="1" parent="1" source="MzNmJEaBrT5Vp8bS7omA-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MzNmJEaBrT5Vp8bS7omA-3" edge="1" parent="1" source="MzNmJEaBrT5Vp8bS7omA-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MzNmJEaBrT5Vp8bS7omA-6" edge="1" parent="1" source="MzNmJEaBrT5Vp8bS7omA-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MzNmJEaBrT5Vp8bS7omA-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Game Manager" vertex="1">
+          <mxGeometry height="60" width="120" x="350" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="MzNmJEaBrT5Vp8bS7omA-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="UI System" vertex="1">
+          <mxGeometry height="60" width="120" x="20" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="MzNmJEaBrT5Vp8bS7omA-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Player System" vertex="1">
+          <mxGeometry height="60" width="120" x="180" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="MzNmJEaBrT5Vp8bS7omA-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Enemy System" vertex="1">
+          <mxGeometry height="60" width="120" x="350" y="270" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
