@@ -87,6 +87,27 @@
         <mxCell id="fPLq490IBxkQpUv8AtHr-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Power Ups System" vertex="1">
           <mxGeometry height="60" width="120" x="840" y="270" as="geometry" />
         </mxCell>
+        <mxCell id="fPLq490IBxkQpUv8AtHr-19" edge="1" parent="1" source="fPLq490IBxkQpUv8AtHr-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="fPLq490IBxkQpUv8AtHr-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fPLq490IBxkQpUv8AtHr-20" edge="1" parent="1" source="fPLq490IBxkQpUv8AtHr-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="fPLq490IBxkQpUv8AtHr-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fPLq490IBxkQpUv8AtHr-21" edge="1" parent="1" source="fPLq490IBxkQpUv8AtHr-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="fPLq490IBxkQpUv8AtHr-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fPLq490IBxkQpUv8AtHr-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Enemy System" vertex="1">
+          <mxGeometry height="60" width="120" x="670" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="fPLq490IBxkQpUv8AtHr-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Movement" vertex="1">
+          <mxGeometry height="60" width="120" x="527.5" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="fPLq490IBxkQpUv8AtHr-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Bullet Pool" vertex="1">
+          <mxGeometry height="60" width="120" x="670" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="fPLq490IBxkQpUv8AtHr-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Health" vertex="1">
+          <mxGeometry height="60" width="120" x="812.5" y="550" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
