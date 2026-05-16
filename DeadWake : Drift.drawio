@@ -29,7 +29,7 @@
             <mxPoint x="745" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MzNmJEaBrT5Vp8bS7omA-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Game Manager" vertex="1">
+        <mxCell id="MzNmJEaBrT5Vp8bS7omA-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Game Manager&lt;div&gt;(Singleton)&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="375" y="120" as="geometry" />
         </mxCell>
         <mxCell id="MzNmJEaBrT5Vp8bS7omA-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="UI System" vertex="1">
@@ -48,7 +48,7 @@
           <mxGeometry height="60" width="120" x="685" y="270" as="geometry" />
         </mxCell>
         <mxCell id="fPLq490IBxkQpUv8AtHr-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Movement" vertex="1">
-          <mxGeometry height="60" width="120" x="165" y="550" as="geometry" />
+          <mxGeometry height="60" width="120" x="60" y="550" as="geometry" />
         </mxCell>
         <mxCell id="fPLq490IBxkQpUv8AtHr-8" edge="1" parent="1" source="fPLq490IBxkQpUv8AtHr-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="fPLq490IBxkQpUv8AtHr-6">
           <mxGeometry relative="1" as="geometry" />
@@ -57,10 +57,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fPLq490IBxkQpUv8AtHr-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Player System" vertex="1">
-          <mxGeometry height="60" width="120" x="375" y="400" as="geometry" />
+          <mxGeometry height="60" width="120" x="165" y="420" as="geometry" />
         </mxCell>
         <mxCell id="fPLq490IBxkQpUv8AtHr-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Bullet Pool" vertex="1">
-          <mxGeometry height="60" width="120" x="375" y="550" as="geometry" />
+          <mxGeometry height="60" width="120" x="270" y="550" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
