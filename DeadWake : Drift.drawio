@@ -6,46 +6,46 @@
         <mxCell id="1" parent="0" />
         <mxCell id="MzNmJEaBrT5Vp8bS7omA-2" edge="1" parent="1" source="MzNmJEaBrT5Vp8bS7omA-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="80" y="270" as="targetPoint" />
+            <mxPoint x="105" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MzNmJEaBrT5Vp8bS7omA-3" edge="1" parent="1" source="MzNmJEaBrT5Vp8bS7omA-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="240" y="270" as="targetPoint" />
+            <mxPoint x="265" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MzNmJEaBrT5Vp8bS7omA-6" edge="1" parent="1" source="MzNmJEaBrT5Vp8bS7omA-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="410" y="270" as="targetPoint" />
+            <mxPoint x="435" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fPLq490IBxkQpUv8AtHr-1" edge="1" parent="1" source="MzNmJEaBrT5Vp8bS7omA-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="570" y="270" as="targetPoint" />
+            <mxPoint x="595" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fPLq490IBxkQpUv8AtHr-3" edge="1" parent="1" source="MzNmJEaBrT5Vp8bS7omA-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="720" y="270" as="targetPoint" />
+            <mxPoint x="745" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MzNmJEaBrT5Vp8bS7omA-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Game Manager" vertex="1">
-          <mxGeometry height="60" width="120" x="350" y="120" as="geometry" />
+          <mxGeometry height="60" width="120" x="375" y="120" as="geometry" />
         </mxCell>
         <mxCell id="MzNmJEaBrT5Vp8bS7omA-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="UI System" vertex="1">
-          <mxGeometry height="60" width="120" x="20" y="270" as="geometry" />
+          <mxGeometry height="60" width="120" x="45" y="270" as="geometry" />
         </mxCell>
         <mxCell id="MzNmJEaBrT5Vp8bS7omA-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Player System" vertex="1">
-          <mxGeometry height="60" width="120" x="180" y="270" as="geometry" />
+          <mxGeometry height="60" width="120" x="205" y="270" as="geometry" />
         </mxCell>
         <mxCell id="MzNmJEaBrT5Vp8bS7omA-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Enemy System" vertex="1">
-          <mxGeometry height="60" width="120" x="350" y="270" as="geometry" />
+          <mxGeometry height="60" width="120" x="375" y="270" as="geometry" />
         </mxCell>
         <mxCell id="fPLq490IBxkQpUv8AtHr-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="VFX System" vertex="1">
-          <mxGeometry height="60" width="120" x="510" y="270" as="geometry" />
+          <mxGeometry height="60" width="120" x="535" y="270" as="geometry" />
         </mxCell>
         <mxCell id="fPLq490IBxkQpUv8AtHr-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Sounds System" vertex="1">
-          <mxGeometry height="60" width="120" x="660" y="270" as="geometry" />
+          <mxGeometry height="60" width="120" x="685" y="270" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
